@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    margin: 0;
+    padding: 20px;
+}
+
+.dashboard-header {
+    background: linear-gradient(to bottom, #4da6ff, #1e70d1, #002366);
+    color: #f1f1f1;
+    text-align: center;
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-header h1 {
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.dashboard-logo {
+    max-width: 100%;
+    transition: transform 0.3s;
+    height: 90%;
+}
+
+.dashboard-logo img:hover {
+    transform: scale(1.05);
+}
+
+.team-border {
+    border-radius: 20px;
+    border: 1px solid #000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.match-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    border-radius: 20px;
+    margin: 15px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Pro-Kabaddi-League-main-page-team {
+    height: 130px;
+    width: 130px;
+}
+
+.pkl-Main-page-team-name-samll {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pkl-Main-page-team-name-large {
+    font-weight: bold;
+}
+
+.header {
+    background: linear-gradient(to bottom, #4da6ff, #1e70d1, #002366);
+    /* Vibrant orange gradient */
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    color: white;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.header img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.header img:hover {
+    transform: scale(1.05);
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.Pro-Kabaddi-League-team-score {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.team-section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.team {
+    text-align: center;
+    width: 200px;
+}
+
+.team img {
+    width: 80px;
+    height: auto;
+}
+
+.team h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.score.win {
+    color: green;
+}
+
+.score.drown {
+    color: gray;
+}
+
+.score.lose {
+    color: red;
+}
+
+.separator {
+    font-size: 26px;
+    width: 30px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .dashboard-header h1 {
+        font-size: 26px !important;
+    }
+}
+
+.Pro-Kabaddi-League-main-page-team {
+    height: 100%;
+    width: 50%;
+}
+
+.Pro-Kabaddi-League-team-score {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.score {
+    font-size: 30px;
+    font-weight: bold;
+    width: 60px;
+    text-align: center;
+}
